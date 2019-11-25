@@ -18,7 +18,7 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "Effective Altruism Chicago"
+  title = "EA Chicago"
   weight = 1
   languageCode = "en"
 
