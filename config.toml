@@ -1,7 +1,7 @@
 # baseURL should be
 # "https://YOUR-GITHUB-USERNAME.github.io/lean-site-template/" during development,
 # and "your-ea-domain.org/" after your domain has been set up.
-baseURL = "https://rtcharity.github.io/lean-site-template/"
+baseURL = "https://eachicago.github.io/lean-site-template/"
 theme = "local-ea-template"
 canonifyURLs = true
 
@@ -18,20 +18,20 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "Local EA Website"
+  title = "Effective Altruism Chicago"
   weight = 1
   languageCode = "en"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
-  fullTitle = "Effective Altruism Site Title"
+  fullTitle = "Effective Altruism Chicago"
   strapline = "Helping you do good better"
 
   [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effective Altruism <City Here>"
-  orgLocations = "this location and that location"
-  contactEmail = "yourEAGroupEmail@here.com"
+  legalOrgName = "Effective Altruism Chicago"
+  orgLocations = "Chicago, IL"
+  contactEmail = "effectivealtruismchicago@gmail.com"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
@@ -74,17 +74,17 @@ DefaultContentLanguage = "en"
   # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
-  firstButtonText = "First Button Text"
-  firstButtonLink = ""
-  secondButtonText = "Second Button Text"
-  secondButtonLink = ""
+  firstButtonText = "Facebook group"
+  firstButtonLink = "https://www.facebook.com/groups/eachicago"
+  secondButtonText = "Twitter"
+  secondButtonLink = "https://twitter.com/ea_chicago"
   # Remove the # before the text to add the optional Meetup button
-  # meetupButtonText = "Find us on Meetup"
+  meetupButtonText = "Find us on Meetup"
 
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
-  facebookUrl = ""
-  twitterUrl = ""
-  meetupUrl = ""
+  facebookUrl = "https://www.facebook.com/groups/eachicago"
+  twitterUrl = "https://twitter.com/ea_chicago"
+  meetupUrl = "https://www.meetup.com/Effective-Altruism-Chicago/"
