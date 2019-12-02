@@ -47,6 +47,7 @@ DefaultContentLanguage = "en"
   keyTerms = "Key Terms"
   organizations = "Organizations"
   contact= "Contact"
+  calendar = "Calendar"
 
   [Languages.en.pages]
   ## -- PAGE HEADERS -- ##
