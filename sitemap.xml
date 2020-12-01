@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://eachicago.com/organizations/</loc>
+    <lastmod>2017-12-28T15:58:33-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/effective-altruism/</loc>
+    <lastmod>2017-12-28T15:58:29-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/key-terms/</loc>
+    <lastmod>2017-12-28T15:58:20-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/reading-material/</loc>
+    <lastmod>2017-12-28T15:58:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/calendar/</loc>
+    <lastmod>2017-12-27T02:15:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/contact/</loc>
+    <lastmod>2017-12-27T02:15:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/faq/</loc>
+    <lastmod>2017-12-27T02:15:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/_footer-left/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/_footer-right/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/</loc>
+    <lastmod>2017-12-28T15:58:33-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/homepage/_first_section_text/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/homepage/_second_section_text/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/homepage/_third_section_text/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/homepage/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eachicago.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
