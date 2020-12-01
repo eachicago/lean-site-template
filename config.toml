@@ -48,6 +48,7 @@ DefaultContentLanguage = "en"
   organizations = "Organizations"
   contact= "Contact"
   calendar = "Calendar"
+  bookClub = "Book Club"
 
   [Languages.en.pages]
   ## -- PAGE HEADERS -- ##
@@ -90,3 +91,4 @@ DefaultContentLanguage = "en"
   facebookUrl = "https://www.facebook.com/groups/eachicago"
   # twitterUrl = "https://twitter.com/ea_chicago"
   meetupUrl = "https://www.meetup.com/Effective-Altruism-Chicago/"
+  goodreadsUrl = "https://www.goodreads.com/group/show/1134561-ea-chicago-book-club"
