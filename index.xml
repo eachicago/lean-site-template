@@ -6,10 +6,22 @@
     <description>Recent content on EA Chicago</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Dec 2017 15:58:33 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 May 2022 19:42:30 -0500</lastBuildDate>
     
 	<atom:link href="https://eachicago.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://eachicago.com/code-of-conduct/</link>
+      <pubDate>Mon, 09 May 2022 19:42:30 -0500</pubDate>
+      
+      <guid>https://eachicago.com/code-of-conduct/</guid>
+      <description>Code of Conduct 
+All events (whether online or in person) hosted by EA Chicago aim to be a welcoming, encouraging, and safe event for all participants.
+EA Chicago does not tolerate harassment of or by event participants in any form. This includes things like deliberate intimidation, stalking, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+We understand that human interaction can be complex and confusing.</description>
+    </item>
     
     <item>
       <title>Organization</title>
