@@ -77,18 +77,22 @@ DefaultContentLanguage = "en"
   # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
-  firstButtonText = "Find us on Facebook"
-  firstButtonLink = "https://www.facebook.com/groups/eachicago"
+  firstButtonText = "Find us on Eventbrite"
+  firstButtonLink = "https://www.eventbrite.com/o/ea-chicago-organizers-55612651483"
   secondButtonText = "Send us an email"
   secondButtonLink = "mailto:info@eachicago.com"
-  # Remove the # before the text to add the optional Meetup button
-  meetupButtonText = "Find us on Meetup"
+  # Remove the # before the text to add the optional button
+  thirdButtonText = "Join us on Slack"
+  thirdButtonLink = "https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"
 
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
-  facebookUrl = "https://www.facebook.com/groups/eachicago"
+  # facebookUrl = "https://www.facebook.com/groups/eachicago"
   # twitterUrl = "https://twitter.com/ea_chicago"
-  meetupUrl = "https://www.meetup.com/Effective-Altruism-Chicago/"
-  goodreadsUrl = "https://www.goodreads.com/group/show/1134561-ea-chicago-book-club"
+  # meetupUrl = "https://www.meetup.com/Effective-Altruism-Chicago/"
+  # goodreadsUrl = "https://www.goodreads.com/group/show/1134561-ea-chicago-book-club"
+  eventbriteUrl = "https://www.eventbrite.com/o/ea-chicago-organizers-55612651483"
+  slackUrl = "https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"
+  substackUrl = "https://eachicago.substack.com/"
