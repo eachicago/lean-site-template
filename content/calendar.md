@@ -23,4 +23,7 @@ draft: false
       src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=ZWZmZWN0aXZlYWx0cnVpc21jaGljYWdvQGdtYWlsLmNvbQ&amp;color=%2322AA99&amp;showTitle=0&amp;showCalendars=0"
       style="width: 100%; height: 600px; border: 0;"
       frameborder="0"
-      scroll
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
