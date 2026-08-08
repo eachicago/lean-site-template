@@ -11000,19 +11000,6 @@ footer.footer .social-links a:hover {
   --chi-red: #d8232a;           /* flag red, desaturated off pure #FF0000 */
 }
 
-/* Slim flag bar across the very top of every page. At 6px it reads as a
-   design detail; at flag proportions it would read as a flag. */
-.chi-flagbar {
-  height: 6px;
-  width: 100%;
-  background: linear-gradient(
-    to bottom,
-    var(--chi-blue) 0 2px,
-    #ffffff 2px 4px,
-    var(--chi-blue) 4px 6px
-  );
-}
-
 .chi-flag-mark {
   display: flex;
   flex-direction: column;
@@ -11127,3 +11114,69 @@ header.masthead h3 {
   height: 440px;
   min-height: 440px;
 }
+
+/* Upcoming events list (data/events.json) */
+.event-list { display: flex; flex-direction: column; gap: 0.85rem; }
+.event-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #e3e9ee;
+  border-left: 4px solid var(--ea-teal);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+}
+.event-date {
+  flex: 0 0 auto;
+  width: 3.1rem;
+  text-align: center;
+  line-height: 1.1;
+}
+.event-date-day {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--ea-teal);
+}
+.event-date-month {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--chi-red);
+}
+.event-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+}
+.event-meta {
+  font-size: 0.875rem;
+  color: #5b6770;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  min-width: 0;
+}
+.event-body { min-width: 0; flex: 1 1 auto; }
+.event-title { overflow-wrap: anywhere; }
+/* A flex child will not shrink below its content width without min-width:0,
+   so long addresses used to push the card wider than the screen. Let them
+   wrap rather than truncating -- the address is useful information. */
+.event-location {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+/* "Stay in the loop" — a loop, minimally */
+.loop-mark {
+  font-size: 3.25rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.75rem;
+}
+.event-title a { color: inherit; text-decoration: none; }
+.event-title a:hover { color: var(--ea-teal); text-decoration: underline; }
+.event-title-ext { font-size: 0.7em; margin-left: 0.4rem; color: var(--ea-teal); vertical-align: 2px; }
