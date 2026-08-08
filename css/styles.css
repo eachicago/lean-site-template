@@ -11170,13 +11170,66 @@ header.masthead h3 {
   min-width: 0;
 }
 
-/* "Stay in the loop" — a loop, minimally */
-.loop-mark {
-  font-size: 3.25rem;
-  line-height: 1;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 0.75rem;
+/* A linked title has to look different from an unlinked one, or the only cue
+   that it goes anywhere is the trailing icon -- which just reads as a stray
+   mark. Use the site's link colour and underline on hover. */
+.event-title a {
+  color: var(--ea-teal);
+  text-decoration: none;
 }
-.event-title a { color: inherit; text-decoration: none; }
-.event-title a:hover { color: var(--ea-teal); text-decoration: underline; }
-.event-title-ext { font-size: 0.7em; margin-left: 0.4rem; color: var(--ea-teal); vertical-align: 2px; }
+.event-title a:hover,
+.event-title a:focus-visible {
+  color: var(--ea-teal-dark);
+  text-decoration: underline;
+}
+.event-title-ext {
+  font-size: 0.68em;
+  margin-left: 0.35rem;
+  vertical-align: 1px;
+  opacity: 0.75;
+}
+
+/* Narrow-column variant, used beside the month grid on the calendar page */
+.event-list--compact .event-item { padding: 0.7rem 0.85rem; gap: 0.75rem; }
+.event-list--compact .event-date { width: 2.6rem; }
+.event-list--compact .event-date-day { font-size: 1.3rem; }
+.event-list--compact .event-title { font-size: 0.95rem; }
+.event-list--compact .event-meta { font-size: 0.8rem; gap: 0.15rem 0.6rem; }
+
+/* Calendar page: the events pane matches the month grid's height and scrolls
+   internally, so the two columns stay aligned regardless of event count.
+   Only above lg — on phones the list just flows at its natural height. */
+@media (min-width: 992px) {
+  .events-pane {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  /* Fade the last card out, so a clipped card reads as "more below" rather
+     than as a rendering glitch. */
+  .events-pane::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0.4rem;
+    bottom: 0;
+    height: 2.5rem;
+    background: linear-gradient(rgba(255, 255, 255, 0), #fff 85%);
+    pointer-events: none;
+  }
+  .events-pane-scroll {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    /* room so the last card's border is not flush against the scrollbar */
+    padding-right: 0.4rem;
+  }
+  .events-pane-scroll::-webkit-scrollbar { width: 8px; }
+  .events-pane-scroll::-webkit-scrollbar-track { background: transparent; }
+  .events-pane-scroll::-webkit-scrollbar-thumb {
+    background: #cfd9e0;
+    border-radius: 4px;
+  }
+  .events-pane-scroll:hover::-webkit-scrollbar-thumb { background: #aebac4; }
+  .events-pane-scroll { scrollbar-width: thin; scrollbar-color: #cfd9e0 transparent; }
+}
