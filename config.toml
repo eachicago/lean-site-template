@@ -65,7 +65,7 @@ DefaultContentLanguage = "en"
   [Languages.en.params.homepage]
    ## -- HOMEPAGE -- ##
   # Masthead (the large image banner at the top of the homepage)
-  mastheadHeading = "A resource hub and community"
+  mastheadHeading = "Helping you do good better"
   mastheadSubheading = "Combining compassion and reason to do the most good we can."
   leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
   firstSectionHeader = "Doing good better"
@@ -116,9 +116,9 @@ DefaultContentLanguage = "en"
   substackUrl = "https://eachicago.substack.com/"
 
 # Hugo's markdown renderer (Goldmark) strips raw HTML from .md files by
-# default. Several content pages embed raw HTML — most importantly the
-# Luma and Google Calendar iframes on calendar.md — so this must stay on
-# or those embeds silently disappear from the built page.
+# default. Content pages use raw HTML in places, so this must stay on or
+# that markup silently disappears from the built page — the build still
+# succeeds, the content just goes missing.
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
