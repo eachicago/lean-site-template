@@ -15,4 +15,4 @@ We understand that human interaction can be complex and confusing. Please give e
  
 #### Reporting Procedures
 
-If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it. You can email us at <a href="mailto:info@eachicago.com">info@eachicago.com</a>
+If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it. You can email us at [info@eachicago.com](mailto:info@eachicago.com)

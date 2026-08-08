@@ -23,18 +23,18 @@ DefaultContentLanguage = "en"
   weight = 1
   languageCode = "en"
 
-  [Languages.en.general]
+  [Languages.en.params.general]
   ## -- GENERAL SITE PARAMETERS -- ##
   fullTitle = "Effective Altruism Chicago"
   strapline = "Helping you do good better"
 
-  [Languages.en.groupinfo]
+  [Languages.en.params.groupinfo]
   ## -- EA GROUP INFO -- ##
   legalOrgName = "Effective Altruism Chicago"
   orgLocations = "Chicago, IL"
   contactEmail = "info@eachicago.com"
 
-  [Languages.en.navbar]
+  [Languages.en.params.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
   # You probably don't need/want to change these,
   # but if you do you'll also want to change the relevant .md file under the
@@ -50,12 +50,12 @@ DefaultContentLanguage = "en"
   calendar = "Calendar"
   bookClub = "Book Club"
 
-  [Languages.en.pages]
+  [Languages.en.params.pages]
   ## -- PAGE HEADERS -- ##
   contactPageHeader = "Contact us"
   aboutEAPageHeader = "What is Effective Altruism?"
 
-  [Languages.en.homepage]
+  [Languages.en.params.homepage]
    ## -- HOMEPAGE -- ##
   topBannerText = "Who are we?"
   leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
@@ -64,7 +64,7 @@ DefaultContentLanguage = "en"
   thirdSectionHeader = "Finding better ways to help"
   bottomBannerText = "A proud member of the effective altruism network"
 
-  [Languages.en.contactform]
+  [Languages.en.params.contactform]
   ## -- CONTACT FORM -- ##
   leadText = "Say hi!"
   senderName = "Your name (required)"
@@ -73,7 +73,7 @@ DefaultContentLanguage = "en"
   emailMessage = "Your Message"
   send = "Send"
 
-  [Languages.en.jumbotron]
+  [Languages.en.params.jumbotron]
   # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
@@ -85,7 +85,7 @@ DefaultContentLanguage = "en"
   thirdButtonText = "Join us on Slack"
   thirdButtonLink = "https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"
 
-  [Languages.en.urls]
+  [Languages.en.params.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
@@ -97,3 +97,12 @@ DefaultContentLanguage = "en"
   lumaUrl = "https://luma.com/eachicago"
   slackUrl = "https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"
   substackUrl = "https://eachicago.substack.com/"
+
+# Hugo's markdown renderer (Goldmark) strips raw HTML from .md files by
+# default. Several content pages embed raw HTML — most importantly the
+# Luma and Google Calendar iframes on calendar.md — so this must stay on
+# or those embeds silently disappear from the built page.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
