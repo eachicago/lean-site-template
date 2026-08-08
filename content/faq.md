@@ -1,11 +1,9 @@
 ---
-title: "FAQ"
+title: "Frequently Asked Questions"
 date: 2017-12-27T02:15:52-08:00
 draft: false
 ---
 
-## Frequently Asked Questions
-<br>
 
 #### So what is effective altruism?  
 

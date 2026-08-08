@@ -4,8 +4,6 @@ date: 2017-12-28T15:58:15-08:00
 draft: false
 ---
 
-## Reading Material
-<br>
 
 A lot of material has been developed on how we can go about doing a lot of good. Here is some of the best.
 

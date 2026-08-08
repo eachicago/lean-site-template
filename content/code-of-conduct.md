@@ -4,8 +4,6 @@ date: 2022-05-09T19:42:30-05:00
 draft: false
 ---
 
-## Code of Conduct
-<br>
 
 All events (whether online or in person) hosted by EA Chicago aim to be a welcoming, encouraging, and safe event for all participants.
 

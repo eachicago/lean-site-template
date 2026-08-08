@@ -4,8 +4,6 @@ date: 2017-12-28T15:58:20-08:00
 draft: false
 ---
 
-## Key EA Terms
-<br>
 
 #### Core Ideas
 **Effective altruism**: Effective altruism (EA) is the name of a growing social movement and an idea – based around using evidence and reason to find the most effective possible ways of doing good in the world. An effective altruist is someone who identifies with and tries to act according to the principles of Effective Altruism.

@@ -33,6 +33,11 @@ DefaultContentLanguage = "en"
   legalOrgName = "Effective Altruism Chicago"
   orgLocations = "Chicago, IL"
   contactEmail = "info@eachicago.com"
+  # The Google Calendar shown on the homepage and the calendar page. This is
+  # the calendar's ID (usually the owning Google account's address). It must be
+  # shared publicly in Google Calendar settings for visitors to see events.
+  googleCalendarId = "effectivealtruismchicago@gmail.com"
+  timezone = "America/Chicago"
 
   [Languages.en.params.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
@@ -47,22 +52,32 @@ DefaultContentLanguage = "en"
   keyTerms = "Key Terms"
   organizations = "Organizations"
   contact= "Contact"
-  calendar = "Calendar"
+  calendar = "Events Calendar"
+  codeOfConduct = "Code of Conduct"
   bookClub = "Book Club"
 
   [Languages.en.params.pages]
   ## -- PAGE HEADERS -- ##
   contactPageHeader = "Contact us"
   aboutEAPageHeader = "What is Effective Altruism?"
+  addToCalendarText = "Add this calendar to your own"
 
   [Languages.en.params.homepage]
    ## -- HOMEPAGE -- ##
-  topBannerText = "Who are we?"
+  # Masthead (the large image banner at the top of the homepage)
+  mastheadHeading = "A resource hub and community"
+  mastheadSubheading = "Combining compassion and reason to do the most good we can."
   leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
   firstSectionHeader = "Doing good better"
   secondSectionHeader = "Building a community"
   thirdSectionHeader = "Finding better ways to help"
-  bottomBannerText = "A proud member of the effective altruism network"
+  # Events section
+  eventsHeader = "Upcoming events"
+  eventsText = "Our events are listed on the calendar below — talks, discussion groups, socials and more. Everyone is welcome, whether it's your first time or your fiftieth."
+  # Newsletter call-to-action
+  newsletterHeader = "Stay in the loop"
+  newsletterText = "The best way to hear about what we're doing is our newsletter."
+  newsletterButton = "Subscribe to our newsletter"
 
   [Languages.en.params.contactform]
   ## -- CONTACT FORM -- ##
@@ -74,11 +89,11 @@ DefaultContentLanguage = "en"
   send = "Send"
 
   [Languages.en.params.jumbotron]
-  # These are the buttons right under the header that appears on the main page.
-  # You can use them to link to a mailing list or Facebook page.
-  # Make sure the links start with http:// or https://
-  firstButtonText = "See our upcoming events on Luma"
-  firstButtonLink = "https://luma.com/eachicago"
+  # The buttons in the masthead at the top of the homepage.
+  # External links must start with http:// or https:// (or mailto:).
+  # A bare path like "calendar" is treated as a link to a page on this site.
+  firstButtonText = "See our upcoming events"
+  firstButtonLink = "calendar"
   secondButtonText = "Send us an email"
   secondButtonLink = "mailto:info@eachicago.com"
   # Remove the # before the text to add the optional button
@@ -94,7 +109,9 @@ DefaultContentLanguage = "en"
   # meetupUrl = "https://www.meetup.com/Effective-Altruism-Chicago/"
   # goodreadsUrl = "https://www.goodreads.com/group/show/1134561-ea-chicago-book-club"
   # eventbriteUrl = "https://www.eventbrite.com/o/ea-chicago-organizers-55612651483"
-  lumaUrl = "https://luma.com/eachicago"
+  # Luma is intentionally not linked publicly: events there are private, and
+  # the Google Calendar above is what visitors should use to find events.
+  # lumaUrl = "https://luma.com/eachicago"
   slackUrl = "https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"
   substackUrl = "https://eachicago.substack.com/"
 
