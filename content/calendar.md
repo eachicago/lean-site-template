@@ -5,5 +5,5 @@ draft: false
 type: "calendar"
 ---
 
-Everything we have coming up is on the calendar below. Click any event to see
-the full details and how to join.
+Everything we have coming up is here. Click an event for the full details and
+how to join.

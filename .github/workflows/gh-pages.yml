@@ -37,7 +37,7 @@ jobs:
           CAL_ID=$(sed -n 's/^ *googleCalendarId *= *"\(.*\)"/\1/p' config.toml | head -1)
           TZ_ID=$(sed -n 's/^ *timezone *= *"\(.*\)"/\1/p' config.toml | head -1)
           echo "calendar: $CAL_ID  tz: $TZ_ID"
-          python3 scripts/build_events.py "$CAL_ID" --tz "${TZ_ID:-America/Chicago}"
+          python3 scripts/build_events.py "$CAL_ID" --tz "${TZ_ID:-America/Chicago}" --limit 12
 
       - name: Build
         run: |
