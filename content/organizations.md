@@ -1,40 +1,50 @@
 ---
 title: "Organizations"
 date: 2017-12-28T15:58:33-08:00
+lastmod: 2026-08-08
 draft: false
 ---
 
+A tour of some of the organizations doing work in and around effective altruism.
 
-__**[AMF](http://www.againstmalaria.com/Default.aspx%20https://www.givewell.org/international/technical/programs/insecticide-treated-nets#HowcosteffectiveisLLINdistribution)**__: The Against Malaria Foundation (AMF) is a non-profit that funds the distribution of long-lasting insecticidal nets (LLIN) to areas with high incidence of malaria, mostly in Africa. GiveWell has recommended AMF as a top charity several times. As of 2017, GiveWell estimated that it costs AMF about $4.22 to distribute one LLIN and $3,000 per equivalent under-5 year old life saved.
+### Finding effective charities
 
-__**[Animal Charity Evaluators](http://www.animalcharityevaluators.org/)**__ investigates the most effective ways of reducing non-human animal suffering. Since there are many non-human animals living in extremely painful conditions on factory farms, animal suffering could be a very highly effective altruistic cause.
+__**[GiveWell](https://www.givewell.org/about)**__ is a non-profit that evaluates charities to find outstanding giving opportunities. It seeks out charities that can show strong evidence of impact per dollar and room for more funding, and that are trustworthy and transparent. GiveWell recommends only a handful of charities at a time, and those recommendations guide the donations of many effective altruists.
 
-__**[CEA](http://centreforeffectivealtruism.org/)**__: The Centre for Effective Altruism (CEA) is a coalition of projects related to EA. Giving What We Can and 80,000 Hours are both part of CEA. They also run the Global Priorities Project and other special projects and raise public awareness of EA.
+__**[Giving What We Can](https://www.givingwhatwecan.org/)**__ encourages people to give effectively, and to take a pledge committing a share of their income to the charities that do the most good with it.
 
-__**[Center for Applied Rationality](http://rationality.org/)**__ runs 4 day workshops on, no surprises here, rationality. They often give significant discounts to effective altruists, and a lot of people report benefiting from their workshops.
+__**[The Life You Can Save](https://www.thelifeyoucansave.org/)**__ was founded by the philosopher Peter Singer. It promotes effective giving with a focus on extreme poverty, through public outreach and its own recommended-charity list.
 
-__**[Charity Science Foundation](http://www.charityscience.com/)**__ The Charity Science Foundation 
+__**[Animal Charity Evaluators](https://animalcharityevaluators.org/)**__ investigates the most effective ways of reducing non-human animal suffering. Given how many animals live in painful conditions on factory farms, this may be a very high-impact cause area.
 
-__**[Effective Altruism Ventures](http://www.eaventures.org/)**__ is a VC fund designed for incubating projects that create a lot of social value.
+### Charities that consistently come out well
 
-__**[FHI](http://www.fhi.ox.ac.uk/research/research-areas/)**__: The Future of Humanity Institute (FHI) is a research center at Oxford that is a leading producer of research on existential risk. FHI’s main areas of research are global catastrophic risk, applied epistemology, human enhancement, and future technologies.
+__**[Against Malaria Foundation](https://www.againstmalaria.com/)**__ funds the distribution of long-lasting insecticidal nets in areas with high rates of malaria, mostly in sub-Saharan Africa. It has been a GiveWell top charity many times over. GiveWell's estimates of what it costs to avert a death through its top charities have generally landed in the low thousands of dollars — see their write-up on [how much it costs to save a life](https://www.givewell.org/how-much-does-it-cost-to-save-a-life) for how that figure is arrived at, and why a single headline number is more slippery than it looks.
 
-__**[GiveWell](http://www.givewell.org/about)**__: GiveWell is a non-profit that evaluates charities in order to find outstanding giving opportunities. In particular, GiveWell seesk out charities who provide strong evidence of impact-per-dollar and room for more funding, and who can demonstrate trustworthiness and transparency. GiveWell recommends just a few charities at a time and these recommendations inform the donations of many effective altruists.
+__**[Unlimit Health](https://unlimithealth.org/)**__, formerly the Schistosomiasis Control Initiative and then SCI Foundation, works with health ministries across sub-Saharan Africa to treat children and at-risk adults for schistosomiasis and other parasitic worms.
 
-__**[GWWC](http://www.givingwhatwecan.org/about-us)**__: Giving What We Can (GWWC) is an international society dedicated to eradicating extreme poverty. GWWC recommends cost-effective charities and encourages individuals to sign its pledge, which represents a commitment to donate a fraction of one’s income to effective charities.
+GiveWell's current recommendations change over time — the [top charities list](https://www.givewell.org/charities/top-charities) is the place to look rather than any page of ours.
 
-__**[MIRI](http://intelligence.org/research/)**__: The Machine Intelligence Research Institute (MIRI) is an non-profit whose mission is to “ensure that the creation of smarter-than-human intelligence has a positive impact.” MIRI’s main activity is to conduct research on a topics such as: How can a machine reason coherently about its own behavior? What is a better formalization for decision-making under uncertainty? How can we specify an AI’s goals to ensure that it matches our intentions, even as the AI modifies itself? What AI-related interventions are the most beneficial?
+### Careers and community
 
-__**[Raising for Effective Giving](http://reg-charity.org/)**__, a project from EAF, encourages touring poker players to donate 2% of their winnings to effective charity (which sometimes totals tens of millions).
+__**[80,000 Hours](https://80000hours.org/)**__ researches how to use your career to do the most good, and offers free advice and a job board. The name is roughly how many hours you will work in your lifetime.
 
-__**[Rethink Charity](https://rtcharity.org/)**__, formerly known as .impact, runs a lineup of EA initiatives that facilitate interpersonal engagement from the bottom up. Initiatives include LEAN (the Local Effective Altruism Network), the EA Hub, Students for High Impact Charity (SHIC), and RC Forward (Canada's first cause-neutral donation routing fund for high-impact charities).
+__**[Centre for Effective Altruism](https://www.centreforeffectivealtruism.org/)**__ supports the effective altruism community: it runs the EA Forum, EA Global conferences, and support for local groups like ours.
 
-__**[SCI](http://www.givewell.org/international/top-charities/schistosomiasis-control-initiative%20%20http://www3.imperial.ac.uk/schisto/whatwedo)**__: The Schistosomiasis Control Initiative (SCI) is a non-profit that works with local Ministries of Health across sub-Saharan Africa to treat children and at-risk adults for schistosomiasis and other parasitic worms. GiveWell has recommended SCI as a top charity, and in 2013, estimated that it costs $0.80 to deworm one child, with SCI paying about 70% of these costs (see “leveraging donations”).
+__**[Charity Entrepreneurship](https://www.charityentrepreneurship.com/)**__, part of Ambitious Impact, researches promising charity ideas and then incubates new organizations to carry them out, with training, co-founder matching and seed funding.
 
-__**[TLYCS](http://www.thelifeyoucansave.org/aboutus.aspx)**__: The Life You Can Save (TLYCS) is a non-profit founded by philosopher Peter Singer. It promotes effective giving – with a focus on reducing poverty and economic inequality – through public outreach. TLYCS seeks to create local groups of informed givers and a global online community, and encourages individuals to sign its charitable-donation pledge.
+__**[Rethink Charity](https://rtcharity.org/)**__ runs a range of projects supporting effective altruism from the bottom up. The template this website is built on came from them.
 
-__**[80K](http://80000hours.org/about-us)**__: 80,000 Hours (80K) is an organization that offers free, one-on-one career advice to individuals seeking to use their careers to do the most good in the world. 80K also publishes general research on the social impact of careers to its website.
+__**[Raising for Effective Giving](https://reg-charity.org/)**__ encourages professional poker players to donate a share of their winnings to effective charities.
 
-Several organizations are focused on existential risk and the far future of humanity. **[The Future of Humanity Institute (FHI)](http://www.fhi.ox.ac.uk/)**, the **[Centre for the Study of Existential Risk (CSER)](http://cser.org/)**, and the **[Future of Life Institute (FLI)](http://futureoflife.org/)** use the tools of mathematics, philosophy, and science to research big-picture questions about the future of humankind.
+__**[Center for Applied Rationality](https://rationality.org/)**__ runs workshops on applied rationality, and often offers discounts to people involved in effective altruism.
 
-Additionally, many individual writers and other sites have interesting material on effective altruism, some of which can be found **[here](https://eahub.org/links#blogs)**.
+### Long-term risks
+
+Several organizations study risks that could permanently affect humanity's prospects, using the tools of mathematics, philosophy and science: the __**[Centre for the Study of Existential Risk](https://www.cser.ac.uk/)**__ at Cambridge, the __**[Future of Life Institute](https://futureoflife.org/)**__, and the __**[Machine Intelligence Research Institute](https://intelligence.org/)**__, which works on making advanced AI systems safe.
+
+Oxford's Future of Humanity Institute was a prominent centre for this research for nearly twenty years; the university [closed it in April 2024](https://www.oxfordstudent.com/2024/04/20/oxford-shuts-down-elon-musk-funded-future-of-humanity-institute/).
+
+### Going further
+
+The [EA Forum](https://forum.effectivealtruism.org/) is where much of the community's writing and argument happens, and it is a good place to follow what people are currently working on and disagreeing about.

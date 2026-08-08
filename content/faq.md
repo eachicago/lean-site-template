@@ -33,11 +33,11 @@ As a rule of thumb, effective altruists are looking for causes or approaches tha
 Then there are people’s best guesses about what specific actions are the most effective. Beliefs vary widely on this topic, and cause selection is an active field of research, but some of the currently most popular options include:
 
 - Scale up proven health treatments in the developing world, for example [anti-malaria bed net distribution](https://www.againstmalaria.com/)
-- [Give cash](https://givedirectly.org/) to the world’s poorest people
-- [Opening borders](http://openborders.info/) to a larger number of migrants, especially those escaping poverty or persecution.
-- Research the safe use of technologies that have the potential to do great amounts of good, or might do a lot of harm, such as [artificial intelligence](http://www.fhi.ox.ac.uk/research/research-areas/).
-- Help animals in factory farms, for example by [persuading people to be vegetarian](http://www.mercyforanimals.org/), [changing animal welfare regulation](http://www.humanesociety.org/), or [inventing meat substitutes](http://www.new-harvest.org/).
-- Reform the [US criminal justice system](http://blog.givewell.org/2015/06/16/incoming-program-officer-for-criminal-justice-reform-chloe-cockburn/) to prevent crime more effectively while causing less unnecessary suffering.
+- [Give cash](https://www.givedirectly.org/) to the world’s poorest people
+- [Opening borders](https://openborders.info/) to a larger number of migrants, especially those escaping poverty or persecution.
+- Research the safe use of technologies that have the potential to do great amounts of good, or might do a lot of harm, such as [artificial intelligence](https://80000hours.org/problem-profiles/artificial-intelligence/).
+- Help animals in factory farms, for example by [persuading people to be vegetarian](https://mercyforanimals.org/), [changing animal welfare regulation](https://www.humanesociety.org/), or [inventing meat substitutes](https://www.new-harvest.org/).
+- Reform the [US criminal justice system](https://blog.givewell.org/2015/06/16/incoming-program-officer-for-criminal-justice-reform-chloe-cockburn/) to prevent crime more effectively while causing less unnecessary suffering.
 - Reduce [carbon emissions](https://www.givingwhatwecan.org/research/charities-area/climate-change), or research geoengineering, in order to lower the risk of catastrophic climate change.
 - [Increasing support](https://centreforeffectivealtruism.org/) for effective altruism itself, in order to get more effective work on the areas listed above.
 
@@ -65,7 +65,7 @@ Many of us find it fairly obvious and uncontroversial, but most people don’t s
 
 If it does seem obvious to you though, great! You’ll probably enjoy joining our community.
 
-Our goal is to improve the world – not [define effective altruism to be controversial](http://www.effective-altruism.com/ea/l7/why_the_triviality_objection_to_ea_is_beside_the/) for the sake of it.
+Our goal is to improve the world – not define effective altruism to be controversial for the sake of it.
 
 #### Do you only do things that are ‘proven’ to work?
 
@@ -83,7 +83,7 @@ That’s one way you might try have the most impact, and one that people have [e
 
 But other approaches, like going into politics or starting a business that provides some new useful product, might work even better for some people.
 
-This is a topic of [active](https://80000hours.org/2015/07/80000-hours-thinks-that-only-a-small-proportion-of-people-should-earn-to-give-long-term/) [debate](http://effective-altruism.com/ea/mk/peter_hurford_thinks_that_a_large_proportion_of/).
+This is a topic of [active debate](https://80000hours.org/2015/07/80000-hours-thinks-that-only-a-small-proportion-of-people-should-earn-to-give-long-term/).
 
 #### Aren’t you neglecting changing the system as a whole?
 
@@ -107,12 +107,12 @@ Maybe, but maybe not. There are thousands of possible ways to have a large impac
 
 The websites to search to see if your organisation or cause of interest has been discussed include:
 
-- [GiveWell](http://www.givewell.org/)
-- [80,000 Hours](http://www.80000hours.org/)
-- [Giving What We Can](http://www.givingwhatwecan.org/)
-- [Open Philanthropy Project](http://www.openphilanthropy.org/)
-- [Global Priorities Project](http://globalprioritiesproject.org/)
-- [Copenhagen Consensus](http://www.copenhagenconsensus.com/)
+- [GiveWell](https://www.givewell.org/)
+- [80,000 Hours](https://80000hours.org/)
+- [Giving What We Can](https://www.givingwhatwecan.org/)
+- [Coefficient Giving](https://coefficientgiving.org/), formerly the Open Philanthropy Project
+- [Global Priorities Institute](https://globalprioritiesinstitute.org/)
+- [Copenhagen Consensus](https://www.copenhagenconsensus.com/)
 
 Or try searching in google for ‘effective altruism’ and the cause you’re interested in.
 
@@ -156,7 +156,7 @@ Regardless, there’s nothing desirable about sacrifice in and of itself.
 
 There’s nothing bad about helping people you know, or even yourself. But often the opportunities to help people far away are vastly greater than the opportunities to help people near you, especially if you live in a wealthy country.
 
-For example for $1,000 you could [double the annual income](http://www.givedirectly.org/) for a family engaged in subsistence agriculture in Kenya. This can be life-transforming for several people. If you live in a wealthy country, it’s hard for $1,000 to achieve anywhere near as much in your local community.
+For example for $1,000 you could [double the annual income](https://www.givedirectly.org/) for a family engaged in subsistence agriculture in Kenya. This can be life-transforming for several people. If you live in a wealthy country, it’s hard for $1,000 to achieve anywhere near as much in your local community.
 
 Most effective altruists think that everyone is equally important, no matter where they live or whether we are friends with them.
 
@@ -190,7 +190,7 @@ Other people alive now around the world are obviously included. Most also think 
 
 A significant number are, because they think farmed animals live horrible lives, especially when confined in factory farms, or that animal agriculture is harmful for the environment. But at the same time, many are not.
 
-Some of us are researching [how best to help non-human animals](http://animalcharityevaluators.org/).
+Some of us are researching [how best to help non-human animals](https://animalcharityevaluators.org/).
 
 #### Is this utilitarianism?
 
@@ -239,14 +239,13 @@ That said, one can engage in effective altruism without taking any interest in t
 
 We’re glad you’d like to join us! Here are a few things you can do:
 
-- Learn more about what we do through the effective altruisim [handbook](http://effective-altruism.com/ea/hx/effective_altruism_handbook_now_online/) or William MacAskill’s [Doing Good Better](http://www.amazon.com/Doing-Good-Better-Effective-Difference/dp/1592409105).
-- Meet like-minded people on our [forum](http://effective-altruism.com/) or at [our annual conference](http://www.eaglobal.org/).
-- Discover how you can have more [impact through your career](http://www.80000hours.org/).
-- Read this post on [small effective things](http://effective-altruism.com/ea/7k/what_small_things_can_an_ea_do/) you can do.
+- Learn more about what we do through the effective altruisim [handbook](https://forum.effectivealtruism.org/handbook) or William MacAskill’s [Doing Good Better](https://www.amazon.com/Doing-Good-Better-Effective-Difference/dp/1592409105).
+- Meet like-minded people on our [forum](https://forum.effectivealtruism.org/) or at [our annual conference](https://www.eaglobal.org/).
+- Discover how you can have more [impact through your career](https://80000hours.org/).
 - Donate to highly effective charities.
 - [Take a pledge to give to effective charities](https://www.givingwhatwecan.org/).
-- Join or start a local chapter or [EA group](http://effectivealtruismhub.com/groups). Email jonathan [dot] courtney [at] givingwhatwecan [dot] org.
-- Apply to work at an EA-oriented organisation, e.g. [GiveWell](http://www.givewell.org/about/jobs) or [Center for Effective Altruism](https://centreforeffectivealtruism.org/careers/).
+- Join or start a local chapter or [EA group](https://effectivealtruismhub.com/groups) — or just [get in touch with us](/contact/).
+- Apply to work at an EA-oriented organisation, e.g. [GiveWell](https://www.givewell.org/about/jobs) or [Center for Effective Altruism](https://centreforeffectivealtruism.org/careers/).
 
 
 Written by a range of contributors.

@@ -4,7 +4,13 @@
 baseURL = "https://eachicago.com"
 theme = "local-ea-template"
 canonifyURLs = true
-googleAnalytics = "UA-153620904-1"
+# Universal Analytics ("UA-" properties) was shut down by Google in 2023 and
+# stopped collecting data, so the old UA-153620904-1 tag was loading a script
+# on every page for nothing. Left disabled rather than deleted so the history
+# is obvious. To turn analytics back on, create a GA4 property and put its
+# measurement id (it starts with "G-") here; the template picks it up
+# automatically and omits the script entirely while this is unset.
+# googleAnalytics = "G-XXXXXXXXXX"
 
 # If you are using multiple languages and want a different default,
 # you can change this language code. In this particular case,

@@ -83,6 +83,22 @@ def parse_dt(entry, tz):
     return naive.replace(tzinfo=zone).astimezone(tz), False
 
 
+LUMA_RE = re.compile(r"https?://(?:lu\.ma|(?:www\.)?luma\.com)/[^\s\\<>\"]+")
+
+
+def event_url(description):
+    """The Luma page for an event, if its description links one.
+
+    Only Luma links are picked up. Descriptions also contain Zoom and Google
+    Meet joining links, and republishing those on a public page invites
+    uninvited guests. Luma pages carry their own access token in the query
+    string, which is what makes a private event viewable by someone holding
+    the link -- that is the intended way in.
+    """
+    m = LUMA_RE.search(description or "")
+    return m.group(0).rstrip(".,;") if m else ""
+
+
 def parse_rrule(value):
     out = {}
     for part in value.split(";"):
@@ -198,6 +214,7 @@ def main():
         status = (first(props, "STATUS") or ({}, ""))[1]
         summary = unescape((first(props, "SUMMARY") or ({}, ""))[1]).strip()
         location = unescape((first(props, "LOCATION") or ({}, ""))[1]).strip()
+        url = event_url(unescape((first(props, "DESCRIPTION") or ({}, ""))[1]))
         uid = (first(props, "UID") or ({}, ""))[1]
         start, all_day = parse_dt(dtstart, tz)
 
@@ -206,7 +223,8 @@ def main():
         if recur_id:
             key = (uid, parse_dt(recur_id, tz)[0])
             overrides[key] = None if status == "CANCELLED" else {
-                "summary": summary, "location": location, "start": start}
+                "summary": summary, "location": location, "start": start,
+                "url": url}
             continue
         if status == "CANCELLED":
             continue
@@ -230,10 +248,11 @@ def main():
                 if ov is None:
                     continue
                 occurrences.append({"summary": ov["summary"], "location": ov["location"],
-                                    "start": ov["start"], "all_day": all_day})
+                                    "start": ov["start"], "all_day": all_day,
+                                    "url": ov.get("url", "")})
                 continue
             occurrences.append({"summary": summary, "location": location,
-                                "start": when, "all_day": all_day})
+                                "start": when, "all_day": all_day, "url": url})
 
     def as_dt(o):
         s = o["start"]
@@ -247,6 +266,7 @@ def main():
         "title": o["summary"],
         "location": o["location"],
         "allDay": o["all_day"],
+        "url": o.get("url", ""),
         "start": as_dt(o).isoformat(),
     } for o in upcoming]
 
@@ -260,7 +280,8 @@ def main():
     for w in dict.fromkeys(warnings):
         print("  warning: %s" % w, file=sys.stderr)
     for e in payload:
-        print("  %s  %s" % (e["start"][:16], e["title"]))
+        print("  %s  %-46s %s" % (e["start"][:16], e["title"][:46],
+                                   "-> " + e["url"] if e["url"] else ""))
     return 0
 
 
