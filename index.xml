@@ -13,14 +13,14 @@
       <link>https://eachicago.com/code-of-conduct/</link>
       <pubDate>Mon, 09 May 2022 19:42:30 -0500</pubDate>
       <guid>https://eachicago.com/code-of-conduct/</guid>
-      <description>&lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;All events (whether online or in person) hosted by EA Chicago aim to be a welcoming, encouraging, and safe event for all participants.&lt;/p&gt;&#xA;&lt;p&gt;EA Chicago does not tolerate harassment of or by event participants in any form. This includes things like deliberate intimidation, stalking, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.&lt;/p&gt;&#xA;&lt;p&gt;We understand that human interaction can be complex and confusing. Please give each other the benefit of explaining behavior you find offensive or unwelcome. However, participants asked to stop any prohibited conduct are expected to comply immediately. If a participant engages in harassing behavior, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from the event.&lt;/p&gt;</description>
+      <description>&lt;p&gt;All events (whether online or in person) hosted by EA Chicago aim to be a welcoming, encouraging, and safe event for all participants.&lt;/p&gt;&#xA;&lt;p&gt;EA Chicago does not tolerate harassment of or by event participants in any form. This includes things like deliberate intimidation, stalking, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.&lt;/p&gt;&#xA;&lt;p&gt;We understand that human interaction can be complex and confusing. Please give each other the benefit of explaining behavior you find offensive or unwelcome. However, participants asked to stop any prohibited conduct are expected to comply immediately. If a participant engages in harassing behavior, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from the event.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Organization</title>
+      <title>Organizations</title>
       <link>https://eachicago.com/organizations/</link>
       <pubDate>Thu, 28 Dec 2017 15:58:33 -0800</pubDate>
       <guid>https://eachicago.com/organizations/</guid>
-      <description>&lt;h2 id=&#34;organizations&#34;&gt;Organizations&lt;/h2&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&#34;http://www.againstmalaria.com/Default.aspx%20https://www.givewell.org/international/technical/programs/insecticide-treated-nets#HowcosteffectiveisLLINdistribution&#34;&gt;AMF&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;: The Against Malaria Foundation (AMF) is a non-profit that funds the distribution of long-lasting insecticidal nets (LLIN) to areas with high incidence of malaria, mostly in Africa. GiveWell has recommended AMF as a top charity several times. As of 2017, GiveWell estimated that it costs AMF about $4.22 to distribute one LLIN and $3,000 per equivalent under-5 year old life saved.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&#34;http://www.animalcharityevaluators.org/&#34;&gt;Animal Charity Evaluators&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt; investigates the most effective ways of reducing non-human animal suffering. Since there are many non-human animals living in extremely painful conditions on factory farms, animal suffering could be a very highly effective altruistic cause.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&#34;http://www.againstmalaria.com/Default.aspx%20https://www.givewell.org/international/technical/programs/insecticide-treated-nets#HowcosteffectiveisLLINdistribution&#34;&gt;AMF&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;: The Against Malaria Foundation (AMF) is a non-profit that funds the distribution of long-lasting insecticidal nets (LLIN) to areas with high incidence of malaria, mostly in Africa. GiveWell has recommended AMF as a top charity several times. As of 2017, GiveWell estimated that it costs AMF about $4.22 to distribute one LLIN and $3,000 per equivalent under-5 year old life saved.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;a href=&#34;http://www.animalcharityevaluators.org/&#34;&gt;Animal Charity Evaluators&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt; investigates the most effective ways of reducing non-human animal suffering. Since there are many non-human animals living in extremely painful conditions on factory farms, animal suffering could be a very highly effective altruistic cause.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Effective Altruism</title>
@@ -34,21 +34,14 @@
       <link>https://eachicago.com/key-terms/</link>
       <pubDate>Thu, 28 Dec 2017 15:58:20 -0800</pubDate>
       <guid>https://eachicago.com/key-terms/</guid>
-      <description>&lt;h2 id=&#34;key-ea-terms&#34;&gt;Key EA Terms&lt;/h2&gt;&#xA;&lt;br&gt;&#xA;&lt;h4 id=&#34;core-ideas&#34;&gt;Core Ideas&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Effective altruism&lt;/strong&gt;: Effective altruism (EA) is the name of a growing social movement and an idea – based around using evidence and reason to find the most effective possible ways of doing good in the world. An effective altruist is someone who identifies with and tries to act according to the principles of Effective Altruism.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cost-effectiveness&lt;/strong&gt;: The cost-effectiveness of a charitable intervention simply refers to how much good it does with a certain amount of resources. The cost-effectiveness of a donation to a charity typically refers to how much good the donation does &lt;em&gt;on the margin&lt;/em&gt; e.g. if you donate $100 to a charity, how much &lt;em&gt;extra&lt;/em&gt; impact will be produced.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;core-ideas&#34;&gt;Core Ideas&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Effective altruism&lt;/strong&gt;: Effective altruism (EA) is the name of a growing social movement and an idea – based around using evidence and reason to find the most effective possible ways of doing good in the world. An effective altruist is someone who identifies with and tries to act according to the principles of Effective Altruism.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cost-effectiveness&lt;/strong&gt;: The cost-effectiveness of a charitable intervention simply refers to how much good it does with a certain amount of resources. The cost-effectiveness of a donation to a charity typically refers to how much good the donation does &lt;em&gt;on the margin&lt;/em&gt; e.g. if you donate $100 to a charity, how much &lt;em&gt;extra&lt;/em&gt; impact will be produced.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reading Material</title>
       <link>https://eachicago.com/reading-material/</link>
       <pubDate>Thu, 28 Dec 2017 15:58:15 -0800</pubDate>
       <guid>https://eachicago.com/reading-material/</guid>
-      <description>&lt;h2 id=&#34;reading-material&#34;&gt;Reading Material&lt;/h2&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;A lot of material has been developed on how we can go about doing a lot of good. Here is some of the best.&lt;/p&gt;&#xA;&lt;p&gt;If you like TED talks, watch Peter Singer’s &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Diuv3XZQXyc&#34;&gt;The Why and How of Effective Altruism&lt;/a&gt;&lt;/strong&gt; or check out &lt;strong&gt;&lt;a href=&#34;http://effective-altruism.wikia.com/wiki/List_of_EA_Presentations&#34;&gt;any of the other TED talks and presentations on effective altruism&lt;/a&gt;&lt;/strong&gt;. The Life You Can Save (Singer’s first book on Effective Altruism) &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=onsIdBanynY&#34;&gt;in 3 minutes&lt;/a&gt;&lt;/strong&gt; is also a great watch.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Calendar</title>
-      <link>https://eachicago.com/calendar/</link>
-      <pubDate>Wed, 27 Dec 2017 02:15:52 -0800</pubDate>
-      <guid>https://eachicago.com/calendar/</guid>
-      <description>&lt;h2 id=&#34;upcoming-events-calendar&#34;&gt;Upcoming Events Calendar&lt;/h2&gt;&#xA;&lt;br&gt;&#xA;&lt;div style=&#34;display: flex; gap: 1rem; width: 100%;&#34;&gt;&#xA;  &lt;div style=&#34;flex: 1;&#34;&gt;&#xA;    &lt;iframe&#xA;      src=&#34;https://luma.com/embed/calendar/cal-Rf5tp1T02B6KWX9/events&#34;&#xA;      style=&#34;width: 100%; height: 600px; border: 1px solid #bfcbda88; border-radius: 4px;&#34;&#xA;      frameborder=&#34;0&#34;&#xA;      allowfullscreen=&#34;&#34;&#xA;      aria-hidden=&#34;false&#34;&#xA;      tabindex=&#34;0&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;flex: 3;&#34;&gt;&#xA;    &lt;iframe&#xA;      src=&#34;https://calendar.google.com/calendar/b/2/embed?height=600&amp;amp;wkst=1&amp;amp;bgcolor=%23ffffff&amp;amp;ctz=America%2FChicago&amp;amp;src=ZWZmZWN0aXZlYWx0cnVpc21jaGljYWdvQGdtYWlsLmNvbQ&amp;amp;color=%2322AA99&amp;amp;showTitle=0&amp;amp;showCalendars=0&#34;&#xA;      style=&#34;width: 100%; height: 600px; border: 0;&#34;&#xA;      frameborder=&#34;0&#34;&#xA;      scrolling=&#34;no&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+      <description>&lt;p&gt;A lot of material has been developed on how we can go about doing a lot of good. Here is some of the best.&lt;/p&gt;&#xA;&lt;p&gt;If you like TED talks, watch Peter Singer’s &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Diuv3XZQXyc&#34;&gt;The Why and How of Effective Altruism&lt;/a&gt;&lt;/strong&gt; or check out &lt;strong&gt;&lt;a href=&#34;http://effective-altruism.wikia.com/wiki/List_of_EA_Presentations&#34;&gt;any of the other TED talks and presentations on effective altruism&lt;/a&gt;&lt;/strong&gt;. The Life You Can Save (Singer’s first book on Effective Altruism) &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=onsIdBanynY&#34;&gt;in 3 minutes&lt;/a&gt;&lt;/strong&gt; is also a great watch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
@@ -58,11 +51,18 @@
       <description>&lt;p&gt;This is the contact page&lt;/p&gt;</description>
     </item>
     <item>
-      <title>FAQ</title>
+      <title>Events Calendar</title>
+      <link>https://eachicago.com/calendar/</link>
+      <pubDate>Wed, 27 Dec 2017 02:15:52 -0800</pubDate>
+      <guid>https://eachicago.com/calendar/</guid>
+      <description>&lt;p&gt;Everything we have coming up is on the calendar below. Click any event to see&#xA;the full details and how to join.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frequently Asked Questions</title>
       <link>https://eachicago.com/faq/</link>
       <pubDate>Wed, 27 Dec 2017 02:15:52 -0800</pubDate>
       <guid>https://eachicago.com/faq/</guid>
-      <description>&lt;h2 id=&#34;frequently-asked-questions&#34;&gt;Frequently Asked Questions&lt;/h2&gt;&#xA;&lt;br&gt;&#xA;&lt;h4 id=&#34;so-what-is-effective-altruism&#34;&gt;So what is effective altruism?&lt;/h4&gt;&#xA;&lt;p&gt;The core idea:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Effective altruism is using evidence and analysis to take actions that help others as much as possible.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The world has a lot of horrible problems but we can’t work on them all at once. Our goal is to accomplish the most good for the world with our limited time, energy, and resources.&lt;/p&gt;&#xA;&lt;p&gt;There is a lot of agreement among people in the movement about what questions we should ask when figuring out what will help others the most. These include:&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;so-what-is-effective-altruism&#34;&gt;So what is effective altruism?&lt;/h4&gt;&#xA;&lt;p&gt;The core idea:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Effective altruism is using evidence and analysis to take actions that help others as much as possible.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The world has a lot of horrible problems but we can’t work on them all at once. Our goal is to accomplish the most good for the world with our limited time, energy, and resources.&lt;/p&gt;&#xA;&lt;p&gt;There is a lot of agreement among people in the movement about what questions we should ask when figuring out what will help others the most. These include:&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

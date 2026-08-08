@@ -1,15 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title> EA Chicago</title>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> &middot; EA Chicago</title>
+    <meta name="description" content="Helping you do good better">
 
     
-    <link rel="stylesheet" href="https://eachicago.com/css/bootstrap.css">
-    <link rel="stylesheet" href="https://eachicago.com/css/style.css">
-    <script src="https://eachicago.com/js/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="https://eachicago.com/css/styles.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
 
     <link rel="apple-touch-icon" sizes="57x57" href="https://eachicago.com/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="https://eachicago.com/apple-icon-60x60.png">
@@ -20,15 +23,16 @@
     <link rel="apple-touch-icon" sizes="144x144" href="https://eachicago.com/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="https://eachicago.com/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="https://eachicago.com/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="https://eachicago.com/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://eachicago.com/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://eachicago.com/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="https://eachicago.com/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://eachicago.com/favicon-16x16.png">
     <link rel="manifest" href="https://eachicago.com/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#0e879e">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#0e879e">
 
+    
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153620904-1"></script>
     <script>
@@ -38,56 +42,72 @@
 
       gtag('config', 'UA-153620904-1');
     </script>
-
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
   </head>
   <body>
+  <div class="chi-flagbar"></div>
 
-
-  <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <div class="container">
-        <a href="https://eachicago.com/" class="navbar-brand">EA CHICAGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="nav navbar-nav">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="https://eachicago.com/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <div class="dropdown">
-                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="https://eachicago.com/">Effective Altruism<span class="caret"></span></a>
-                   <ul class="dropdown-menu">
-                       <li><a href="https://eachicago.com/effective-altruism">About EA</a></li>
-                     <li><a href="https://eachicago.com/key-terms">Key Terms</a></li>
-                     <li><a href="https://eachicago.com/organizations">Organizations</a></li>
-                     <li><a href="https://eachicago.com/reading-material">Reading Material</a></li>
-                   </ul>
-               </div>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://eachicago.com/faq">FAQ </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://eachicago.com/calendar">Calendar <span class="sr-only">(current)</span></a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="https://eachicago.com/contact">Contact</a>
-                </li>
-                
-
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white static-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand py-1" href="https://eachicago.com/">
+      <img src="https://eachicago.com/img/logo.png" alt="Effective Altruism Chicago">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">Effective Altruism</a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <li><a class="dropdown-item" href="https://eachicago.com/effective-altruism">About EA</a></li>
+            <li><a class="dropdown-item" href="https://eachicago.com/key-terms">Key Terms</a></li>
+            <li><a class="dropdown-item" href="https://eachicago.com/organizations">Organizations</a></li>
+            <li><a class="dropdown-item" href="https://eachicago.com/reading-material">Reading Material</a></li>
           </ul>
-        </div>
-      </div>
+        </li>
+        
+        
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://eachicago.com/faq">FAQ</a>
+          </li>
+        
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://eachicago.com/calendar">Events Calendar</a>
+          </li>
+        
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://eachicago.com/contact">Contact</a>
+          </li>
+        
+        
+
+      </ul>
     </div>
+  </div>
+</nav>
 
 
 
-<div class="container regular-page-container">
+
+
+
+<header class="page-header text-center"
+        >
+  <div class="container position-relative">
+    <h1 class="text-white mb-0"></h1>
+  </div>
+</header>
+
+
+<div class="container content-body">
+  <div class="row justify-content-center">
+    <div class="col-lg-9">
       <h4 id="useful-links">Useful links</h4>
 <ul>
 <li><a href="http://effectivealtruism.org">effectivealtruism.org</a></li>
@@ -98,11 +118,14 @@
 <li><a href="https://rtcharity.org/">Rethink Charity</a></li>
 </ul>
 
+    </div>
+  </div>
 </div>
 
-<div class="container text-banner">
-  <div class="row">
-    <div class="col-sm-4"><h4 id="more-on-ea">More on EA</h4>
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4"><h4 id="more-on-ea">More on EA</h4>
 <ul>
 <li><a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">Intro to effective altruism</a></li>
 <li><a href="https://www.youtube.com/watch?v=Diuv3XZQXyc"><strong>Video:</strong> The Why and How of Effective Altruism</a></li>
@@ -111,7 +134,7 @@
 <li><a href="https://www.centreforeffectivealtruism.org/">Centre for Effective Altruism</a></li>
 </ul>
 </div>
-    <div class="col-sm-4"><h4 id="useful-links">Useful links</h4>
+      <div class="col-lg-4"><h4 id="useful-links">Useful links</h4>
 <ul>
 <li><a href="http://effectivealtruism.org">effectivealtruism.org</a></li>
 <li><a href="https://80000hours.org/">80000 Hours</a></li>
@@ -121,38 +144,41 @@
 <li><a href="https://rtcharity.org/">Rethink Charity</a></li>
 </ul>
 </div>
-    <div class="col-sm-4">
-      <h4 id="newsletter">Newsletter</h4>
-      <iframe src="https://eachicago.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+      <div class="col-lg-4">
+        <h4 id="newsletter">Newsletter</h4>
+        
+        <p class="text-muted small">News, events and what we&#39;ve been reading — straight to your inbox.</p>
+        
+          <a href="https://eachicago.substack.com/" class="btn btn-primary">
+            <i class="bi-envelope-paper me-2"></i>Subscribe to our newsletter
+          </a>
+        
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div id="footer-legal" class="col-12">
-      © 0001 Effective Altruism Chicago, Chicago, IL.
-    </div>
-  </div>
-  <div class="row">
-    <div id="footer-legal" class="col-12">
-      <a href="mailto:info@eachicago.com"><i class="fas fa-envelope-square fa-3x"></i></a>
-      
-        <a href="https://www.facebook.com/groups/eachicago"><i class="fab fa-facebook-square fa-3x"></i></a>
-      
-      
-      
-      
-      
-        <a href="https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"><i class="fab fa-slack fa-3x"></i></a>
-      
-      
-        <a href="https://eachicago.substack.com/"><i class="far fa-newspaper fa-3x"></i></a>
-      
-    </div>
-  </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <hr class="my-4">
+
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="text-muted small mb-2 mb-md-0">
+          &copy; 2026 Effective Altruism Chicago, Chicago, IL.
+          &middot; <a href="https://eachicago.com/code-of-conduct">Code of Conduct</a>
+        </p>
+      </div>
+      <div class="col-md-6 text-center text-md-end social-links">
+        <a class="me-3" href="mailto:info@eachicago.com" aria-label="Email"><i class="bi-envelope-fill fs-3"></i></a>
+        <a class="me-3" href="https://www.facebook.com/groups/eachicago" aria-label="Facebook"><i class="bi-facebook fs-3"></i></a>
+        
+        
+        <a class="me-3" href="https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g" aria-label="Slack"><i class="bi-slack fs-3"></i></a>
+        <a href="https://eachicago.substack.com/" aria-label="Newsletter"><i class="bi-newspaper fs-3"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://eachicago.com/js/scripts.js"></script>
 </body>
 </html>
 
