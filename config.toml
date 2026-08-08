@@ -73,7 +73,7 @@ DefaultContentLanguage = "en"
   thirdSectionHeader = "Finding better ways to help"
   # Events section
   eventsHeader = "Upcoming events"
-  eventsText = "Our events are listed on the calendar below — talks, discussion groups, socials and more. Everyone is welcome, whether it's your first time or your fiftieth."
+  eventsText = "Talks, discussion groups, socials and more. Everyone is welcome, whether it's your first time or your fiftieth."
   # Newsletter call-to-action
   newsletterHeader = "Stay in the loop"
   newsletterText = "The best way to hear about what we're doing is our newsletter."

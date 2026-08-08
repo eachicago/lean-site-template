@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [ master ]
 
+  # The site is static, so the "upcoming events" list would otherwise freeze
+  # at whatever it was when someone last pushed. Rebuild nightly to keep it
+  # current. 09:00 UTC is the early hours in Chicago.
+  schedule:
+    - cron: '0 9 * * *'
+
   workflow_dispatch:
 
 jobs:
@@ -22,6 +28,16 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.152.2'
+
+      # Never fail the deploy over this: if Google is unreachable the site
+      # falls back to the embedded calendar iframe, which is fine.
+      - name: Refresh events from Google Calendar
+        continue-on-error: true
+        run: |
+          CAL_ID=$(sed -n 's/^ *googleCalendarId *= *"\(.*\)"/\1/p' config.toml | head -1)
+          TZ_ID=$(sed -n 's/^ *timezone *= *"\(.*\)"/\1/p' config.toml | head -1)
+          echo "calendar: $CAL_ID  tz: $TZ_ID"
+          python3 scripts/build_events.py "$CAL_ID" --tz "${TZ_ID:-America/Chicago}"
 
       - name: Build
         run: |
