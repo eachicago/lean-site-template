@@ -1,12 +1,13 @@
 /*
  * Refresh the events list from the Google Calendar API.
  *
- * The list is already rendered at build time from data/events.json, so this
- * is an enhancement rather than the source of truth: with JS off, a failed
- * request, or an expired key, the server-rendered list stays exactly as it
- * was. What this buys us is that the page stays correct even if the nightly
- * rebuild stops running -- GitHub disables scheduled workflows after 60 days
- * of repository inactivity, and that failure is silent.
+ * This is the source of the events list. The site is static and only
+ * rebuilds when someone pushes, so anything baked in at build time would be
+ * stale within weeks -- fetching on load keeps it correct indefinitely.
+ *
+ * If this cannot run -- JS disabled, network failure, revoked key -- the
+ * Google Calendar embed takes over. It does not match the site's styling,
+ * but it is always live, which matters more.
  *
  * The API key is public by design (see config.toml) and restricted by HTTP
  * referrer to this site, read-only, against an already-public calendar.
@@ -35,14 +36,13 @@
   function fmt(date, tz, opts) {
     opts.timeZone = tz;
     var out = new Intl.DateTimeFormat("en-GB", opts).format(date);
-    // ICU abbreviates September as "Sept"; Go's "Jan" layout gives "Sep".
-    // Without this the label visibly changes when the script swaps the
-    // server-rendered list out.
+    // ICU abbreviates September as "Sept". Three letters everywhere reads
+    // better in the narrow date badge and matches the other months.
     return out.replace(/\bSept\b/g, "Sep");
   }
 
   function timeLabel(date, tz) {
-    // Match the server-rendered format: "6:00pm" rather than "6:00 pm".
+    // "6:00pm" rather than "6:00 pm".
     return fmt(date, tz, { hour: "numeric", minute: "2-digit", hour12: true })
       .replace(/\s+/g, "")
       .toLowerCase();
@@ -104,7 +104,7 @@
   }
 
   function render(mount, events, tz, compact) {
-    if (!events.length) return; // keep whatever the server rendered
+    if (!events.length) return;
     var ul = el("ul", "event-list list-unstyled mb-0" + (compact ? " event-list--compact" : ""));
     events.forEach(function (ev) {
       ul.appendChild(card(ev, tz));
@@ -139,37 +139,24 @@
         var items = (data.items || []).filter(function (ev) {
           return ev.status !== "cancelled" && ev.start;
         });
-        render(mount, items.slice(0, limit), tz, compact);
+        if (items.length) {
+          render(mount, items.slice(0, limit), tz, compact);
+        } else {
+          // Nothing coming up. The embed at least lets people browse the
+          // calendar rather than staring at a blank panel.
+          showEmbed(mount, id, tz);
+        }
       })
       .catch(function () {
-        pruneStale(mount, id, tz);
+        showEmbed(mount, id, tz);
       });
   }
 
   /*
-   * Fallback when the API cannot be reached.
-   *
-   * There is no scheduled rebuild, so the server-rendered list is only as
-   * fresh as the last deploy and may list events that have already happened.
-   * Drop those. If nothing recent is left, swap in the Google Calendar
-   * iframe, which is always live -- an empty box would be worse than an
-   * embed that does not match the site's styling.
+   * Last resort: the Google Calendar embed, which is always live. Not styled
+   * like the rest of the page, but an empty box would be worse.
    */
-  function pruneStale(mount, id, tz) {
-    var items = mount.querySelectorAll(".event-item[data-start]");
-    if (!items.length) return;
-    var cutoff = new Date();
-    cutoff.setHours(0, 0, 0, 0);
-
-    var remaining = 0;
-    for (var i = 0; i < items.length; i++) {
-      var when = new Date(items[i].getAttribute("data-start"));
-      if (isNaN(when.getTime())) { remaining++; continue; }
-      if (when < cutoff) items[i].parentNode.removeChild(items[i]);
-      else remaining++;
-    }
-    if (remaining) return;
-
+  function showEmbed(mount, id, tz) {
     var frame = document.createElement("iframe");
     frame.src =
       "https://calendar.google.com/calendar/embed?src=" + encodeURIComponent(id) +
