@@ -88,7 +88,7 @@ DefaultContentLanguage = "en"
   eventsHeader = "Upcoming events"
   eventsText = "Talks, discussion groups, socials and more. Everyone is welcome, whether it's your first time or your fiftieth."
   # Newsletter call-to-action
-  newsletterHeader = "Stay in the loop"
+  newsletterHeader = "Stay in the loop!"
   newsletterText = "The best way to hear about what we're doing is our newsletter."
   newsletterButton = "Subscribe to our newsletter"
 
