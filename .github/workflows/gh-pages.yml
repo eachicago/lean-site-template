@@ -23,19 +23,6 @@ jobs:
         with:
           hugo-version: '0.152.2'
 
-      # Never fail the deploy over this: if Google is unreachable the site
-      # falls back to the embedded calendar iframe, which is fine.
-      # Runs on every build, so a deploy always ships a current list. There is
-      # deliberately no schedule: GitHub disables scheduled workflows after 60
-      # days of repository inactivity, so a nightly refresh would stop exactly
-      # when it mattered. js/events.js keeps the list current between deploys.
-      - name: Refresh events from Google Calendar
-        continue-on-error: true
-        run: |
-          CAL_ID=$(sed -n 's/^ *googleCalendarId *= *"\(.*\)"/\1/p' config.toml | head -1)
-          TZ_ID=$(sed -n 's/^ *timezone *= *"\(.*\)"/\1/p' config.toml | head -1)
-          echo "calendar: $CAL_ID  tz: $TZ_ID"
-          python3 scripts/build_events.py "$CAL_ID" --tz "${TZ_ID:-America/Chicago}" --limit 12
 
       - name: Build
         run: |
