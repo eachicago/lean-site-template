@@ -59,11 +59,12 @@ DefaultContentLanguage = "en"
   # content folder so the copy corresponds with the header.
   home = "Home"
   faq = "FAQ"
+  # The "About us" dropdown: the group first, then the movement. The
+  # organizations and reading-material pages are now sections of the
+  # Effective Altruism page rather than nav items of their own.
+  aboutUs = "About us"
+  eaChicago = "EA Chicago"
   effectiveAltruism = "Effective Altruism"
-  aboutEA = "About EA"
-  readingMaterial = "Reading Material"
-  keyTerms = "Key Terms"
-  organizations = "Organizations"
   contact= "Contact"
   calendar = "Events Calendar"
   codeOfConduct = "Code of Conduct"
@@ -73,6 +74,9 @@ DefaultContentLanguage = "en"
   ## -- PAGE HEADERS -- ##
   contactPageHeader = "Contact us"
   aboutEAPageHeader = "What is Effective Altruism?"
+  # Heading above the organizer cards on the About us page. The section only
+  # appears once data/organizers.yaml has people in it.
+  organizersHeader = "The people behind it"
   addToCalendarText = "Add this calendar to your own"
 
   [Languages.en.params.homepage]
@@ -107,8 +111,8 @@ DefaultContentLanguage = "en"
   # A bare path like "calendar" is treated as a link to a page on this site.
   firstButtonText = "See our upcoming events"
   firstButtonLink = "calendar"
-  secondButtonText = "Send us an email"
-  secondButtonLink = "mailto:info@eachicago.com"
+  secondButtonText = "Subscribe to our newsletter"
+  secondButtonLink = "https://eachicago.substack.com/"
   # Remove the # before the text to add the optional button
   thirdButtonText = "Join us on Slack"
   thirdButtonLink = "https://join.slack.com/t/eachicago/shared_invite/zt-1mbxr5ol3-9WhuX7l19p~HYEXFD_rG0g"

@@ -1,0 +1,16 @@
+# Organizers listed at the bottom of the About us page (/about-us).
+#
+# The whole section is hidden while this list is empty, so a half-finished
+# roster never ships. To add people, uncomment the block below and fill it in.
+# Only `name` is required; role, bio, image and link are each optional.
+#
+# people:
+#   - name: "Jane Doe"
+#     role: "Co-organizer"
+#     bio: "One or two sentences — what they do, what they're interested in."
+#     image: "img/organizers/jane.jpg"   # square crops look best
+#     link: "https://example.com"        # personal site, LinkedIn, anything
+#   - name: "John Doe"
+#     role: "Co-organizer"
+
+people: []
