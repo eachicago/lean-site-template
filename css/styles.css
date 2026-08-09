@@ -11030,6 +11030,26 @@ footer.footer .social-links a:hover {
 .chi-flag-mark--dark .chi-bar { background: rgba(255, 255, 255, 0.75); }
 .chi-flag-mark--dark .chi-star { fill: #ffffff; }
 
+/* The Loop mark — see partials/loop-mark.html. Defaults are tuned for the
+   teal call-to-action; .loop-mark--light re-colours it for a white section. */
+.loop-mark {
+  display: block;
+  width: 112px;
+  height: auto;
+  margin: 0 auto 1.75rem;
+}
+.loop-mark__feeder--v { stroke: rgba(255, 90, 95, 0.92); }
+.loop-mark__feeder--arc { stroke: rgba(255, 255, 255, 0.38); }
+.loop-mark__ring--outer { stroke: #ffffff; }
+.loop-mark__ring--mid { stroke: var(--chi-blue); }
+.loop-mark__ring--inner { stroke: #f4b942; }
+
+.loop-mark--light .loop-mark__feeder--v { stroke: rgba(216, 35, 42, 0.55); }
+.loop-mark--light .loop-mark__feeder--arc { stroke: rgba(9, 86, 99, 0.22); }
+.loop-mark--light .loop-mark__ring--outer { stroke: var(--ea-teal-dark); }
+.loop-mark--light .loop-mark__ring--mid { stroke: var(--chi-blue-mid); }
+.loop-mark--light .loop-mark__ring--inner { stroke: var(--chi-red); }
+
 /* Alternating section tint, so the page has some rhythm instead of
    white-all-the-way-down */
 .section-tint { background-color: var(--chi-blue-tint); }
