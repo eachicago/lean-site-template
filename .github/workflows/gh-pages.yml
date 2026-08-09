@@ -6,12 +6,6 @@ on:
   pull_request:
     branches: [ master ]
 
-  # The site is static, so the "upcoming events" list would otherwise freeze
-  # at whatever it was when someone last pushed. Rebuild nightly to keep it
-  # current. 09:00 UTC is the early hours in Chicago.
-  schedule:
-    - cron: '0 9 * * *'
-
   workflow_dispatch:
 
 jobs:
@@ -31,6 +25,10 @@ jobs:
 
       # Never fail the deploy over this: if Google is unreachable the site
       # falls back to the embedded calendar iframe, which is fine.
+      # Runs on every build, so a deploy always ships a current list. There is
+      # deliberately no schedule: GitHub disables scheduled workflows after 60
+      # days of repository inactivity, so a nightly refresh would stop exactly
+      # when it mattered. js/events.js keeps the list current between deploys.
       - name: Refresh events from Google Calendar
         continue-on-error: true
         run: |
