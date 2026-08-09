@@ -44,6 +44,13 @@ DefaultContentLanguage = "en"
   # shared publicly in Google Calendar settings for visitors to see events.
   googleCalendarId = "effectivealtruismchicago@gmail.com"
   timezone = "America/Chicago"
+  # Browser key for the Google Calendar API, used to refresh the events list
+  # client-side so it stays correct even if the nightly rebuild stops running.
+  # This is deliberately public: it ends up in the page source, and is
+  # restricted in the Google Cloud console to referrers on eachicago.com and
+  # to the Calendar API only. It is read-only against an already-public
+  # calendar. Do not reuse it for anything else.
+  googleCalendarApiKey = "AIzaSyAulbYzhYP6eKshz-dhBZsQaZGab7jJ8vc"
 
   [Languages.en.params.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
