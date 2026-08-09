@@ -10943,9 +10943,20 @@ footer.footer .social-links a:hover {
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
+/* h2 marks a major section on a stacked page (the Effective Altruism page
+   holds what were three separate pages). Without the rule it lands close
+   enough to the bold h3 subheads below it to read as their equal. */
 .content-body h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.25rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid #dee2e6;
+  font-weight: 700;
+}
+.content-body h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
 }
 .content-body h3, .content-body h4 {
   margin-top: 1.75rem;
