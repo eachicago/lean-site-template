@@ -8,20 +8,19 @@ banner: "img/skyline.jpg"
 
 Effective Altruism Chicago is a community of people in and around Chicago who want to use their time, money and careers to help others as much as possible — and who would rather work that out together than alone.
 
-We come from all over the city and from all sorts of backgrounds: students and retirees, engineers and nurses, people who have been reading about effective altruism for years and people who came across the phrase last week. What we share is a question: **how can I do good better?**
+We come from all over the city and from all sorts of backgrounds: students, software engineers and research scientists, people who came across the phrase last week, and regulars who lead some of the largest organizations in effective altruism. What we share is a question: **how can I do good better?**
 
 #### What we do
 
 - **Talks and discussions** on the problems we think are most pressing, and on the evidence behind them.
-- **Reading and discussion groups**, where we work through a book or a set of articles together over several weeks.
+- **Reading and discussion groups**, where we work through a book or a set of articles together.
 - **Socials**, because a lot of the value of a group like this is simply knowing other people who take these questions seriously.
-- **A newsletter**, so you can follow along even when you can't make it out.
 
 Everything we run is free and open to anyone. Our [events calendar](/calendar) is the best picture of what's on at the moment.
 
 #### Who it's for
 
-You don't need a background in philosophy or economics, a job in charity, or a plan for your life. You don't need to already agree with us — disagreement, argued well, is most of how the ideas get better. Come to one event, decide whether it's for you, and go from there.
+You don't need a background in philosophy or economics, a job in charity, or a plan for your life. You don't need to already agree with us — disagreement is most of how the ideas get better. Come to one event, decide whether it's for you, and go from there.
 
 Everyone who takes part is asked to follow our [code of conduct](/code-of-conduct). We want this to be a place where people can think out loud and change their minds.
 
